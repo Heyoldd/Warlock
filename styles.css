@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .responsive-image {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-image {
+        transform: translateX(-100%);
+    }
+}

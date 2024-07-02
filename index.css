@@ -1,0 +1,316 @@
+
+
+
+.Header {
+    justify-content: start;
+    align-content: start;
+    margin: 9px;
+    padding: 12px;
+
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UpperTexts {
+    display: flex;
+    flex-direction: row;
+    text-indent: 50px;
+    position: absolute;
+    top: 9px;
+
+    left: 170px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.UpperTexts:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.End {
+    position: absolute;
+    right: 220px;
+    top: 9px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14;
+    color: blue
+}
+
+.WatchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(35, 35, 196, 0.942);
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14;
+    color: rgb(255, 255, 255)
+    
+}
+.WatchBox:hover {
+    color:grey;
+    background-color: rgb(249, 248, 248);
+    cursor: pointer;
+}
+
+.Lemons {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;
+    left: 505px;
+    top: 90px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(237, 222, 56);
+    height: 35px;
+    width: 80px;
+    font-size: 10px;
+    font-weight: bolder;
+
+}
+.Lemons2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+    left: 580px;
+    top: 90px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(238, 242, 244);
+    height: 35px;
+    width: 1100px;
+    font-size: 15px;
+    text-indent: 15px;
+    font-weight: bold;
+    
+}
+
+
+.MapPic {
+    display: flex;
+    height: 480px;
+    width: 800px;
+    position: absolute;
+    left: 505px;
+    top: 140px;
+    
+    
+}
+.MapPic:hover img {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+
+ .Overlay {
+    position:fixed;
+    left: 505px;
+    top: 550px;
+    height: 110px;
+    width: 778px;
+    background-color: rgb(255, 255, 255);
+
+ }
+
+
+
+.BiggyMappy .MapPic {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+ .Underlay {
+    position:fixed;
+    color: rgb(33, 33, 163);
+    font-size: 15px;
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-left:-5px;
+ }
+
+ .Bottomlay {
+
+    font-size: 25px;
+    text-indent: 25px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left:-5px;
+ }
+
+ .AuthorName {
+    text-indent: 20px;
+    color: grey;
+    font-size: 13px;
+    margin-top: 15px;
+ }
+
+ /* The row of the Map*/
+ 
+ .SecondMap {
+    display: flex;
+    width: 245px;
+    height: 225px;
+    position: absolute;
+    right: 700px;
+    top: 140px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    
+ }
+
+ .SecondMap:hover img {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+
+
+ .Secondoverlay {
+    display: flex;
+    width: 365px;
+    height: 100px;
+    position:fixed;
+    top: 328px;
+    background-color: rgb(236, 236, 236);
+
+ }
+
+ .Upperthirdlayer {
+    display: flex;
+    width: 365px;
+    height: 100px;
+    position:fixed;
+    top: 430px;
+    right: 580px;
+    background-color: rgb(236, 236, 236);
+
+}
+ .Thirdoverlay {
+    position:fixed;
+    color: rgb(33, 33, 163);
+    font-size: 15px;
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-left:-5px;
+    
+
+ }
+ .Upperthirdlayer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    width: 300px; 
+    height: 0;
+    border-top: 1px solid rgb(143, 142, 142);
+    transform: translateX(-50%);
+    
+  }
+ 
+
+
+.Layerthird {
+    position:fixed;
+    color: rgb(33, 33, 163);
+    font-size: 15px;
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-left:-5px;
+}
+
+
+.SecondLayer {
+    position:fixed;
+    color: rgb(33, 33, 163);
+    font-size: 15px;
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-left:-5px;
+
+}
+
+.ThirdLayer {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 35px;
+    padding-left: 25px; /* Use padding-left instead of text-indent */
+}
+
+.Fourthlayer {
+    display: flex;
+    width: 365px;
+    height: 100px;
+    position:fixed;
+    top: 532px;
+    right: 580px;
+    background-color: rgb(236, 236, 236);
+}
+
+.Fourthlayer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    width: 300px; 
+    height: 0;
+    border-top: 1px solid rgb(143, 142, 142);
+    transform: translateX(-50%);
+  }
+
+.Fourthoverlayer {
+    position:fixed;
+    color: rgb(33, 33, 163);
+    font-size: 15px;
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-left:-5px;
+}
+
+
+.Scrollitems {
+    position: absolute;
+    left: 505px;
+    top: 700px;
+    width: 350px; 
+    height: 330px; 
+    overflow: auto; 
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px; 
+}
+
+
